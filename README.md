@@ -19,10 +19,12 @@ Build Instructions:
 
 Building an Executable Jar:
 > mvn package
+
 The excutable jar can be found at: ./target/httpdlight-1.0-SNAPSHOT.jar
 
 Building API Documentation (javadocs):
 > mvn site
+
 The api documentation will be generated: ./target/site/project-reports.html
 Additional project information will be available at: ./target/site/index.html
 
